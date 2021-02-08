@@ -1,0 +1,30 @@
+body {
+margin: 0px; padding: 0px;
+background-image: url("background.png");background-color: #262c3a;
+background-repeat: no-repeat;
+background-size: 3000px;
+
+font-family: Helvetica, sans-serif;
+font-size: 1.2em;
+}
+
+#box {
+  width: 70%; margin: auto; position: relative; top: 100px;
+  border-radius: 25px;
+  min-height: 500px; min-width: 300px;
+  background-color: #262c3a; color: white;
+}
+
+#tittlebar {height: 50px; width: calc(100%-20px); padding: 20px;}
+#content {width: 95%; padding: 5px; text-align: center;}
+
+h4 {font-size: 1.4em; color: #80d9d3;}
+h5 {font-size: 1.3em; color: #80d9d3;}
+
+.img {width: 90%; max-width: 500px;}
+
+.link {text-decoration: none; color: #80d9d3; border: solid; padding: 10px; border-radius: 5px;}
+.link:hover {text-decoration: none; color: black; background-color: #4afff3;}
+
+table {color: white;}
+.tablelink {color: #80d9d3;}
